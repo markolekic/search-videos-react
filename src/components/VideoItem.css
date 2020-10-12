@@ -1,0 +1,39 @@
+.search-bar {
+  margin-top: 1em;
+}
+
+h6 {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.video-list {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  justify-content: space-around;
+}
+
+.video-box {
+  align-self: center;
+  text-align: center;
+}
+
+.video-box img {
+  text-align: center;
+  width: 250px;
+}
+
+input, .input-field label {
+  color: black;
+}
+
+input:focus {
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
+}
+
+label.active {
+  color: black !important;
+}
