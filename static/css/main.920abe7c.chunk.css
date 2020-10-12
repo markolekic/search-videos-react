@@ -1,0 +1,2 @@
+.search-bar{margin-top:1em}h6{font-size:medium;font-weight:600}.video-list{cursor:pointer;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));grid-gap:10px;justify-content:space-around}.video-box{align-self:center;text-align:center}.video-box img{text-align:center;width:250px}.input-field label,input{color:#000}input:focus{border-bottom:1px solid #000!important;box-shadow:0 1px 0 0 #000!important}label.active{color:#000!important}
+/*# sourceMappingURL=main.920abe7c.chunk.css.map */
