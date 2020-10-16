@@ -9,7 +9,7 @@ const VideoDetail = ({video}) => {
 
     return (
         <div>
-           <div className="video-container">
+           <div className="video-container z-depth-2">
                 <iframe 
                 title="player" 
                 src={videoSrc} 
