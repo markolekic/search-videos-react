@@ -8,8 +8,8 @@ const VideoDetail = ({video}) => {
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`
 
     return (
-        <div className="z-depth-2">
-           <div className="video-container z-depth-2">
+        <div>
+           <div className="video-container">
                 <iframe 
                 title="player" 
                 src={videoSrc} 
